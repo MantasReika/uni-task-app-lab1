@@ -8,7 +8,6 @@ import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
 
-//    private tvMain: TextView;
 private lateinit var textView : TextView;
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,10 +24,6 @@ private lateinit var textView : TextView;
 
     fun onSecondButtonClick(view: View) {
         System.out.println("onSecondButtonClick");
-        textView.setTextColor(Color.GREEN);
+        textView.setTextColor(Color.RED);
     }
-
-
-//    fun onButtonClick() {
-//    }
 }
